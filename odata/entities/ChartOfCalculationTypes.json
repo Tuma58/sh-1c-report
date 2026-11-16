@@ -1,0 +1,69 @@
+[
+  {
+    "name": "уатОсновныеНачисления",
+    "collections": [
+      "ChartOfCalculationTypes_уатОсновныеНачисления"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "КодВидаНачисленияДляВыгрузки",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СпособРасчетаОплатыТруда",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "LeadingCalculationTypes",
+        "type": "Collection(StandardODATA.ChartOfCalculationTypes_уатОсновныеНачисления_LeadingCalculationTypes)",
+        "nullable": "true"
+      },
+      {
+        "name": "BaseCalculationTypes",
+        "type": "Collection(StandardODATA.ChartOfCalculationTypes_уатОсновныеНачисления_BaseCalculationTypes)",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  }
+]

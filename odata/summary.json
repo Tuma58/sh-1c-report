@@ -1,0 +1,29 @@
+{
+  "source": "http://172.16.35.29:8088/atp_z2/odata/standard.odata/$metadata",
+  "serviceRoot": "http://172.16.35.29:8088/atp_z2/odata/standard.odata/",
+  "namespace": "StandardODATA",
+  "counts": {
+    "entityTypes": 1300,
+    "complexTypes": 485,
+    "enumTypes": 266,
+    "associations": 2047,
+    "entitySets": 1300,
+    "functionImports": 850
+  },
+  "entitySetsByKind": {
+    "Document": 329,
+    "Catalog": 328,
+    "InformationRegister": 264,
+    "Constant": 245,
+    "AccumulationRegister": 92,
+    "ChartOfCharacteristicTypes": 14,
+    "DocumentJournal": 5,
+    "ExchangePlan": 5,
+    "BusinessProcess": 5,
+    "AccountingRegister": 4,
+    "Task": 3,
+    "ChartOfAccounts": 3,
+    "CalculationRegister": 2,
+    "ChartOfCalculationTypes": 1
+  }
+}

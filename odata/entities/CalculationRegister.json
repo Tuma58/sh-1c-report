@@ -1,0 +1,31 @@
+[
+  {
+    "name": "уатОсновныеНачисления",
+    "collections": [
+      "CalculationRegister_уатОсновныеНачисления",
+      "CalculationRegister_уатОсновныеНачисления_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.CalculationRegister_уатОсновныеНачисления_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  }
+]

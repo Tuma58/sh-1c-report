@@ -1,0 +1,501 @@
+[
+  {
+    "name": "уатДокументыГСМ",
+    "collections": [
+      "DocumentJournal_уатДокументыГСМ"
+    ],
+    "keys": [
+      "Ref",
+      "Ref_Type"
+    ],
+    "properties": [
+      {
+        "name": "Ref",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Posted",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Организация_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ответственный_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "АзсСклад",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ВидЗаправки",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Ref_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "АзсСклад_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Организация",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыГСМ_Организация",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Ответственный",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыГСМ_Ответственный",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатДокументыПоАгрегатам",
+    "collections": [
+      "DocumentJournal_уатДокументыПоАгрегатам"
+    ],
+    "keys": [
+      "Ref",
+      "Ref_Type"
+    ],
+    "properties": [
+      {
+        "name": "Ref",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Posted",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Организация_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ответственный_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Склад_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ref_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Организация",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыПоАгрегатам_Организация",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Ответственный",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыПоАгрегатам_Ответственный",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Склад",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыПоАгрегатам_Склад",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатДокументыПоРемонтам",
+    "collections": [
+      "DocumentJournal_уатДокументыПоРемонтам"
+    ],
+    "keys": [
+      "Ref",
+      "Ref_Type"
+    ],
+    "properties": [
+      {
+        "name": "Ref",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Posted",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Организация_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ответственный",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ТС_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаНачала",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаОкончания",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ПричинаОбращения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Выполнен",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Ref_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Ответственный_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Организация",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыПоРемонтам_Организация",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ТС",
+        "relationship": "StandardODATA.DocumentJournal_уатДокументыПоРемонтам_ТС",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатКассовыеИБанковскиеДокументы",
+    "collections": [
+      "DocumentJournal_уатКассовыеИБанковскиеДокументы"
+    ],
+    "keys": [
+      "Ref",
+      "Ref_Type"
+    ],
+    "properties": [
+      {
+        "name": "Ref",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Posted",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Организация_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Оплачен",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ВидОперации",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Контрагент_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "БанковскийСчетКасса",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Валюта_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ответственный_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СуммаДокумента",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "Ref_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "ВидОперации_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "БанковскийСчетКасса_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Организация",
+        "relationship": "StandardODATA.DocumentJournal_уатКассовыеИБанковскиеДокументы_Организация",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Контрагент",
+        "relationship": "StandardODATA.DocumentJournal_уатКассовыеИБанковскиеДокументы_Контрагент",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Валюта",
+        "relationship": "StandardODATA.DocumentJournal_уатКассовыеИБанковскиеДокументы_Валюта",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Ответственный",
+        "relationship": "StandardODATA.DocumentJournal_уатКассовыеИБанковскиеДокументы_Ответственный",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатСкладскиеДокументы",
+    "collections": [
+      "DocumentJournal_уатСкладскиеДокументы"
+    ],
+    "keys": [
+      "Ref",
+      "Ref_Type"
+    ],
+    "properties": [
+      {
+        "name": "Ref",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Posted",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Склад_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Организация_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Ответственный_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Ref_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Склад",
+        "relationship": "StandardODATA.DocumentJournal_уатСкладскиеДокументы_Склад",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Организация",
+        "relationship": "StandardODATA.DocumentJournal_уатСкладскиеДокументы_Организация",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Ответственный",
+        "relationship": "StandardODATA.DocumentJournal_уатСкладскиеДокументы_Ответственный",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  }
+]

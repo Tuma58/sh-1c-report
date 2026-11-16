@@ -1,0 +1,537 @@
+[
+  {
+    "name": "Задание",
+    "collections": [
+      "BusinessProcess_Задание"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Completed",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Started",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "HeadTask",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Автор_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Важность",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Выполнено",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ГлавнаяЗадача_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаЗавершения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "Исполнитель",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Наименование",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НаПроверке",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НомерИтерации",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "Подтверждено",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Проверяющий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатВыполнения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Содержание",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Состояние",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СрокИсполнения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "СрокПроверки",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "АвторСтрокой",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ВнешнееЗадание",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗадачаИсточник_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "СодержаниеПредмета_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "ОсновнойОбъектАдресации_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ОсновнойОбъектАдресацииПроверяющий_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресации_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресацииПроверяющий_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "HeadTask_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Исполнитель_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Проверяющий_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СодержаниеПредмета_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СодержаниеПредмета",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Автор",
+        "relationship": "StandardODATA.BusinessProcess_Задание_Автор",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ГлавнаяЗадача",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ГлавнаяЗадача",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ЗадачаИсточник",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ЗадачаИсточник",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ОсновнойОбъектАдресации",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ОсновнойОбъектАдресации",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ОсновнойОбъектАдресацииПроверяющий",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ОсновнойОбъектАдресацииПроверяющий",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресации",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ДополнительныйОбъектАдресации",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресацииПроверяющий",
+        "relationship": "StandardODATA.BusinessProcess_Задание_ДополнительныйОбъектАдресацииПроверяющий",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатСогласование",
+    "collections": [
+      "BusinessProcess_уатСогласование"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Completed",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Started",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "HeadTask",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Автор_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Важность",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ВариантСогласования",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаЗавершения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаНачала",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "Наименование",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НомерИтерации",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "Описание",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПовторитьСогласование",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатСогласования",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СрокИсполнения",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "Шаблон_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Исполнители",
+        "type": "Collection(StandardODATA.BusinessProcess_уатСогласование_Исполнители_RowType)",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатыСогласования",
+        "type": "Collection(StandardODATA.BusinessProcess_уатСогласование_РезультатыСогласования_RowType)",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатыОзнакомлений",
+        "type": "Collection(StandardODATA.BusinessProcess_уатСогласование_РезультатыОзнакомлений_RowType)",
+        "nullable": "true"
+      },
+      {
+        "name": "HeadTask_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Автор",
+        "relationship": "StandardODATA.BusinessProcess_уатСогласование_Автор",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Шаблон",
+        "relationship": "StandardODATA.BusinessProcess_уатСогласование_Шаблон",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатСогласование_Исполнители",
+    "collections": [
+      "BusinessProcess_уатСогласование_Исполнители"
+    ],
+    "keys": [
+      "Ref_Key",
+      "LineNumber"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "LineNumber",
+        "type": "Edm.Int64",
+        "nullable": "false"
+      },
+      {
+        "name": "Исполнитель_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Пройден",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Исполнитель",
+        "relationship": "StandardODATA.BusinessProcess_уатСогласование_Исполнители_Исполнитель",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатСогласование_РезультатыОзнакомлений",
+    "collections": [
+      "BusinessProcess_уатСогласование_РезультатыОзнакомлений"
+    ],
+    "keys": [
+      "Ref_Key",
+      "LineNumber"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "LineNumber",
+        "type": "Edm.Int64",
+        "nullable": "false"
+      },
+      {
+        "name": "ЗадачаИсполнителя_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "НомерИтерации",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ОтправленоНаПовторноеСогласование",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "ЗадачаИсполнителя",
+        "relationship": "StandardODATA.BusinessProcess_уатСогласование_РезультатыОзнакомлений_ЗадачаИсполнителя",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатСогласование_РезультатыСогласования",
+    "collections": [
+      "BusinessProcess_уатСогласование_РезультатыСогласования"
+    ],
+    "keys": [
+      "Ref_Key",
+      "LineNumber"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "LineNumber",
+        "type": "Edm.Int64",
+        "nullable": "false"
+      },
+      {
+        "name": "ЗадачаИсполнителя_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "НомерИтерации",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатСогласования",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "ЗадачаИсполнителя",
+        "relationship": "StandardODATA.BusinessProcess_уатСогласование_РезультатыСогласования_ЗадачаИсполнителя",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  }
+]

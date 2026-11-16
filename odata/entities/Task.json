@@ -1,0 +1,436 @@
+[
+  {
+    "name": "БюджетнаяЗадача",
+    "collections": [
+      "Task_БюджетнаяЗадача"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Executed",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "МодельБюджетирования_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ШагБюджетногоПроцесса_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Действие",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаДействия_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаИсполнения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "СрокИсполнения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ОписаниеЗадачи",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Период",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ОсновнаяЗадача_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ИсходныйШагБюджетногоПроцесса_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Автор_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Документ_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкиКонтрольныхОтчетов_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "УдалитьОбъектДействия",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Исполнитель_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "УтверждаемыеДокументы",
+        "type": "Collection(StandardODATA.Task_БюджетнаяЗадача_УтверждаемыеДокументы_RowType)",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаДействия_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкиКонтрольныхОтчетов_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаДействия",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкиКонтрольныхОтчетов",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "МодельБюджетирования",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_МодельБюджетирования",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ШагБюджетногоПроцесса",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_ШагБюджетногоПроцесса",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ОсновнаяЗадача",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_ОсновнаяЗадача",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ИсходныйШагБюджетногоПроцесса",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_ИсходныйШагБюджетногоПроцесса",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Автор",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_Автор",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Документ",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_Документ",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Исполнитель",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_Исполнитель",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "БюджетнаяЗадача_УтверждаемыеДокументы",
+    "collections": [
+      "Task_БюджетнаяЗадача_УтверждаемыеДокументы"
+    ],
+    "keys": [
+      "Ref_Key",
+      "LineNumber"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "LineNumber",
+        "type": "Edm.Int64",
+        "nullable": "false"
+      },
+      {
+        "name": "Документ",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ШагБюджетногоПроцесса_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Документ_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "ШагБюджетногоПроцесса",
+        "relationship": "StandardODATA.Task_БюджетнаяЗадача_УтверждаемыеДокументы_ШагБюджетногоПроцесса",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ЗадачаИсполнителя",
+    "collections": [
+      "Task_ЗадачаИсполнителя"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Number",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Date",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "BusinessProcess",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "RoutePoint",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Executed",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Автор_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Важность",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ГруппаИсполнителейЗадач_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаИсполнения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаНачала",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "ДатаПринятияКИсполнению",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "Описание",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПредметСтрокой",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПринятаКИсполнению",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "РезультатВыполнения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СостояниеБизнесПроцесса",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СрокИсполнения",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "АвторСтрокой",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресации_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Исполнитель_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ОсновнойОбъектАдресации_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "РольИсполнителя_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "BusinessProcess_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "RoutePoint_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Предмет_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Автор",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_Автор",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ГруппаИсполнителейЗадач",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_ГруппаИсполнителейЗадач",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ДополнительныйОбъектАдресации",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_ДополнительныйОбъектАдресации",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "Исполнитель",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_Исполнитель",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ОсновнойОбъектАдресации",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_ОсновнойОбъектАдресации",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "РольИсполнителя",
+        "relationship": "StandardODATA.Task_ЗадачаИсполнителя_РольИсполнителя",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1318 @@
+[
+  {
+    "name": "Закупки",
+    "collections": [
+      "AccumulationRegister_Закупки",
+      "AccumulationRegister_Закупки_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_Закупки_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ОборотыБюджетов",
+    "collections": [
+      "AccumulationRegister_ОборотыБюджетов",
+      "AccumulationRegister_ОборотыБюджетов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_ОборотыБюджетов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_АдресноеХранение",
+    "collections": [
+      "AccumulationRegister_П_АдресноеХранение",
+      "AccumulationRegister_П_АдресноеХранение_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_АдресноеХранение_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДенежныеСредства",
+    "collections": [
+      "AccumulationRegister_П_ДенежныеСредства",
+      "AccumulationRegister_П_ДенежныеСредства_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_ДенежныеСредства_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ЗарплатаАвтомойки",
+    "collections": [
+      "AccumulationRegister_П_ЗарплатаАвтомойки",
+      "AccumulationRegister_П_ЗарплатаАвтомойки_RecordType"
+    ],
+    "keys": [
+      "Recorder_Key"
+    ],
+    "properties": [
+      {
+        "name": "Recorder_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_ЗарплатаАвтомойки_RowType)",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ПланФактРасходаДС1",
+    "collections": [
+      "AccumulationRegister_П_ПланФактРасходаДС1",
+      "AccumulationRegister_П_ПланФактРасходаДС1_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_ПланФактРасходаДС1_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ПрибыльСебестоимостьРемЛиста",
+    "collections": [
+      "AccumulationRegister_П_ПрибыльСебестоимостьРемЛиста",
+      "AccumulationRegister_П_ПрибыльСебестоимостьРемЛиста_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_ПрибыльСебестоимостьРемЛиста_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_РеестрСчетов",
+    "collections": [
+      "AccumulationRegister_П_РеестрСчетов",
+      "AccumulationRegister_П_РеестрСчетов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_РеестрСчетов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_УдержанияСотрудников",
+    "collections": [
+      "AccumulationRegister_П_УдержанияСотрудников",
+      "AccumulationRegister_П_УдержанияСотрудников_RecordType"
+    ],
+    "keys": [
+      "Recorder_Key"
+    ],
+    "properties": [
+      {
+        "name": "Recorder_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_П_УдержанияСотрудников_RowType)",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПланДДС",
+    "collections": [
+      "AccumulationRegister_ПланДДС",
+      "AccumulationRegister_ПланДДС_RecordType"
+    ],
+    "keys": [
+      "Recorder_Key"
+    ],
+    "properties": [
+      {
+        "name": "Recorder_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_ПланДДС_RowType)",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПотребностьКлиента",
+    "collections": [
+      "AccumulationRegister_ПотребностьКлиента",
+      "AccumulationRegister_ПотребностьКлиента_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_ПотребностьКлиента_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "Продажи",
+    "collections": [
+      "AccumulationRegister_Продажи",
+      "AccumulationRegister_Продажи_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_Продажи_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьП_ПланФактРасходаДС",
+    "collections": [
+      "AccumulationRegister_УдалитьП_ПланФактРасходаДС",
+      "AccumulationRegister_УдалитьП_ПланФактРасходаДС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьП_ПланФактРасходаДС1",
+    "collections": [
+      "AccumulationRegister_УдалитьП_ПланФактРасходаДС1",
+      "AccumulationRegister_УдалитьП_ПланФактРасходаДС1_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС1_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьУатКонтролируемыеЗначенияБюджетов",
+    "collections": [
+      "AccumulationRegister_УдалитьУатКонтролируемыеЗначенияБюджетов",
+      "AccumulationRegister_УдалитьУатКонтролируемыеЗначенияБюджетов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_УдалитьУатКонтролируемыеЗначенияБюджетов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьУатОборотыБюджетов",
+    "collections": [
+      "AccumulationRegister_УдалитьУатОборотыБюджетов",
+      "AccumulationRegister_УдалитьУатОборотыБюджетов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_УдалитьУатОборотыБюджетов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатБилетыНаСкладах",
+    "collections": [
+      "AccumulationRegister_уатБилетыНаСкладах",
+      "AccumulationRegister_уатБилетыНаСкладах_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатБилетыНаСкладах_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВзаиморасчетыСКонтрагентами",
+    "collections": [
+      "AccumulationRegister_уатВзаиморасчетыСКонтрагентами",
+      "AccumulationRegister_уатВзаиморасчетыСКонтрагентами_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВзаиморасчетыСКонтрагентами_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыработкаАгрегатов",
+    "collections": [
+      "AccumulationRegister_уатВыработкаАгрегатов",
+      "AccumulationRegister_уатВыработкаАгрегатов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыработкаАгрегатов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыработкаПоСтоимости",
+    "collections": [
+      "AccumulationRegister_уатВыработкаПоСтоимости",
+      "AccumulationRegister_уатВыработкаПоСтоимости_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыработкаПоСтоимости_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыработкаСотрудников",
+    "collections": [
+      "AccumulationRegister_уатВыработкаСотрудников",
+      "AccumulationRegister_уатВыработкаСотрудников_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыработкаСотрудников_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыработкаТС",
+    "collections": [
+      "AccumulationRegister_уатВыработкаТС",
+      "AccumulationRegister_уатВыработкаТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыработкаТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыручка",
+    "collections": [
+      "AccumulationRegister_уатВыручка",
+      "AccumulationRegister_уатВыручка_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыручка_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВыставленныеУслуги",
+    "collections": [
+      "AccumulationRegister_уатВыставленныеУслуги",
+      "AccumulationRegister_уатВыставленныеУслуги_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатВыставленныеУслуги_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатДвижениеДС",
+    "collections": [
+      "AccumulationRegister_уатДвижениеДС",
+      "AccumulationRegister_уатДвижениеДС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатДвижениеДС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЗаказыГрузоотправителей",
+    "collections": [
+      "AccumulationRegister_уатЗаказыГрузоотправителей",
+      "AccumulationRegister_уатЗаказыГрузоотправителей_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатЗаказыГрузоотправителей_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЗатратыПоВидамПеревозок",
+    "collections": [
+      "AccumulationRegister_уатЗатратыПоВидамПеревозок",
+      "AccumulationRegister_уатЗатратыПоВидамПеревозок_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатЗатратыПоВидамПеревозок_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЗатратыТС",
+    "collections": [
+      "AccumulationRegister_уатЗатратыТС",
+      "AccumulationRegister_уатЗатратыТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатЗатратыТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЗаявкиНаРасходованиеДС",
+    "collections": [
+      "AccumulationRegister_уатЗаявкиНаРасходованиеДС",
+      "AccumulationRegister_уатЗаявкиНаРасходованиеДС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРасходованиеДС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЗаявкиНаРемонт",
+    "collections": [
+      "AccumulationRegister_уатЗаявкиНаРемонт",
+      "AccumulationRegister_уатЗаявкиНаРемонт_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРемонт_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИзносПробегШин",
+    "collections": [
+      "AccumulationRegister_уатИзносПробегШин",
+      "AccumulationRegister_уатИзносПробегШин_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатИзносПробегШин_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНоменклатураТС",
+    "collections": [
+      "AccumulationRegister_уатНоменклатураТС",
+      "AccumulationRegister_уатНоменклатураТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатНоменклатураТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОборотыПоЗаправкамГСМ",
+    "collections": [
+      "AccumulationRegister_уатОборотыПоЗаправкамГСМ",
+      "AccumulationRegister_уатОборотыПоЗаправкамГСМ_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоЗаправкамГСМ_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОборотыПоМаршрутномуЛисту",
+    "collections": [
+      "AccumulationRegister_уатОборотыПоМаршрутномуЛисту",
+      "AccumulationRegister_уатОборотыПоМаршрутномуЛисту_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоМаршрутномуЛисту_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОборотыПоОтчетамПоставщиковПЦ",
+    "collections": [
+      "AccumulationRegister_уатОборотыПоОтчетамПоставщиковПЦ",
+      "AccumulationRegister_уатОборотыПоОтчетамПоставщиковПЦ_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоОтчетамПоставщиковПЦ_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОстаткиАгрегатов",
+    "collections": [
+      "AccumulationRegister_уатОстаткиАгрегатов",
+      "AccumulationRegister_уатОстаткиАгрегатов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОстаткиАгрегатов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОстаткиГСМнаТС",
+    "collections": [
+      "AccumulationRegister_уатОстаткиГСМнаТС",
+      "AccumulationRegister_уатОстаткиГСМнаТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОстаткиГСМнаТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОстаткиТЖнаТС",
+    "collections": [
+      "AccumulationRegister_уатОстаткиТЖнаТС",
+      "AccumulationRegister_уатОстаткиТЖнаТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатОстаткиТЖнаТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПартииТоваровНаСкладах",
+    "collections": [
+      "AccumulationRegister_уатПартииТоваровНаСкладах",
+      "AccumulationRegister_уатПартииТоваровНаСкладах_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатПартииТоваровНаСкладах_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПланРаботыТС",
+    "collections": [
+      "AccumulationRegister_уатПланРаботыТС",
+      "AccumulationRegister_уатПланРаботыТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатПланРаботыТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПредоставленныеУслуги",
+    "collections": [
+      "AccumulationRegister_уатПредоставленныеУслуги",
+      "AccumulationRegister_уатПредоставленныеУслуги_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатПредоставленныеУслуги_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПростои",
+    "collections": [
+      "AccumulationRegister_уатПростои",
+      "AccumulationRegister_уатПростои_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатПростои_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатРабочееВремяСотрудников",
+    "collections": [
+      "AccumulationRegister_уатРабочееВремяСотрудников",
+      "AccumulationRegister_уатРабочееВремяСотрудников_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатРабочееВремяСотрудников_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатРасходГСМнаТС",
+    "collections": [
+      "AccumulationRegister_уатРасходГСМнаТС",
+      "AccumulationRegister_уатРасходГСМнаТС_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатРасходГСМнаТС_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатРасходТехническихЖидкостей",
+    "collections": [
+      "AccumulationRegister_уатРасходТехническихЖидкостей",
+      "AccumulationRegister_уатРасходТехническихЖидкостей_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатРасходТехническихЖидкостей_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатСписаниеАгрегатов",
+    "collections": [
+      "AccumulationRegister_уатСписаниеАгрегатов",
+      "AccumulationRegister_уатСписаниеАгрегатов_RecordType"
+    ],
+    "keys": [
+      "Recorder",
+      "Recorder_Type"
+    ],
+    "properties": [
+      {
+        "name": "Recorder",
+        "type": "Edm.String",
+        "nullable": "false"
+      },
+      {
+        "name": "RecordSet",
+        "type": "Collection(StandardODATA.AccumulationRegister_уатСписаниеАгрегатов_RowType)",
+        "nullable": "false"
+      },
+      {
+        "name": "Recorder_Type",
+        "type": "Edm.String",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  }
+]

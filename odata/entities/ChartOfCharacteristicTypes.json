@@ -1,0 +1,1071 @@
+[
+  {
+    "name": "АналитикиСтатейБюджетов",
+    "collections": [
+      "ChartOfCharacteristicTypes_АналитикиСтатейБюджетов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаполнениеВалюты",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаполнениеЕдиницыИзмерения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПредставлениеВалюты",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПредставлениеЕдиницыИзмерения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "УчитыватьПоВалюте",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "УчитыватьПоКоличеству",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительноеСвойство_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ПредставлениеТипаЗначения",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "ДополнительноеСвойство",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_АналитикиСтатейБюджетов_ДополнительноеСвойство",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВидыСубконтоХозрасчетные",
+    "collections": [
+      "ChartOfCharacteristicTypes_ВидыСубконтоХозрасчетные"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДополнительныеРеквизитыИСведения",
+    "collections": [
+      "ChartOfCharacteristicTypes_ДополнительныеРеквизитыИСведения"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "Заголовок",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НаборСвойств_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ЭтоДополнительноеСведение",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаполнятьОбязательно",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "МногострочноеПолеВвода",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныеЗначенияИспользуются",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ВладелецДополнительныхЗначений_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныеЗначенияСВесом",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаголовокФормыЗначения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаголовокФормыВыбораЗначения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ФорматСвойства",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Подсказка",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "УдалитьСклоненияПредмета",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "НаборСвойств",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_ДополнительныеРеквизитыИСведения_НаборСвойств",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ВладелецДополнительныхЗначений",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_ДополнительныеРеквизитыИСведения_ВладелецДополнительныхЗначений",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ОбъектыАдресацииЗадач",
+    "collections": [
+      "ChartOfCharacteristicTypes_ОбъектыАдресацииЗадач"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "РазделыДатЗапретаИзменения",
+    "collections": [
+      "ChartOfCharacteristicTypes_РазделыДатЗапретаИзменения"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "РеквизитыЭлементовФинансовыхОтчетов",
+    "collections": [
+      "ChartOfCharacteristicTypes_РеквизитыЭлементовФинансовыхОтчетов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьНазначенияСвойствКатегорийОбъектов",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьНазначенияСвойствКатегорийОбъектов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "IsFolder",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьНазначенияСвойствКатегорийОбъектов_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УдалитьНастройкиПользователей",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьНастройкиПользователей"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "IsFolder",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьНастройкиПользователей_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УдалитьСвойстваОбъектов",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьСвойстваОбъектов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "Категория",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НазначениеСвойства_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "НазначениеСвойства",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьСвойстваОбъектов_НазначениеСвойства",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УдалитьУатВидыСубконтоБюджетирования",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьУатВидыСубконтоБюджетирования"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьУатДополнительныеРеквизитыИСведения_Ред2",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьУатДополнительныеРеквизитыИСведения_Ред2"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "Заголовок",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НаборСвойств_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ЭтоДополнительноеСведение",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаполнятьОбязательно",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "МногострочноеПолеВвода",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныеЗначенияИспользуются",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ВладелецДополнительныхЗначений_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ДополнительныеЗначенияСВесом",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаголовокФормыЗначения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗаголовокФормыВыбораЗначения",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ФорматСвойства",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Комментарий",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Подсказка",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "УдалитьСклоненияПредмета",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СсылкаДляПереноса_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "НаборСвойств",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьУатДополнительныеРеквизитыИСведения_Ред2_НаборСвойств",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ВладелецДополнительныхЗначений",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьУатДополнительныеРеквизитыИСведения_Ред2_ВладелецДополнительныхЗначений",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "СсылкаДляПереноса",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьУатДополнительныеРеквизитыИСведения_Ред2_СсылкаДляПереноса",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УдалитьУатНазначенияСвойствКатегорийОбъектов",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьУатНазначенияСвойствКатегорийОбъектов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "IsFolder",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьУатНазначенияСвойствКатегорийОбъектов_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УдалитьУатСвойстваОбъектов",
+    "collections": [
+      "ChartOfCharacteristicTypes_УдалитьУатСвойстваОбъектов"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "Категория",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НазначениеСвойства_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "НазначениеСвойства",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_УдалитьУатСвойстваОбъектов_НазначениеСвойства",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатПраваИНастройки",
+    "collections": [
+      "ChartOfCharacteristicTypes_уатПраваИНастройки"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "IsFolder",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ValueType",
+        "type": "StandardODATA.TypeDescription",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗначениеПоУмолчанию",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Назначение",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаКомпании",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаОрганизации",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаПодразделения",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НастройкаПользователя",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЭтоНастройка",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗначениеПоУмолчанию_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfCharacteristicTypes_уатПраваИНастройки_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  }
+]

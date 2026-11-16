@@ -1,0 +1,5826 @@
+[
+  {
+    "name": "ItobАдресSmsСервера",
+    "collections": [
+      "Constant_ItobАдресSmsСервера"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobАдресСервисаCsmSvc",
+    "collections": [
+      "Constant_ItobАдресСервисаCsmSvc"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobЛогинРепликации",
+    "collections": [
+      "Constant_ItobЛогинРепликации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobМинимальнаяСкоростьДвижения",
+    "collections": [
+      "Constant_ItobМинимальнаяСкоростьДвижения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobМинимальноеВремяСтоянки",
+    "collections": [
+      "Constant_ItobМинимальноеВремяСтоянки"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobНомерВерсииКонфигурации",
+    "collections": [
+      "Constant_ItobНомерВерсииКонфигурации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobПараметрыРепликации",
+    "collections": [
+      "Constant_ItobПараметрыРепликации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobПараметрыРепликацииРезервныйСервер",
+    "collections": [
+      "Constant_ItobПараметрыРепликацииРезервныйСервер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobПарольРепликации",
+    "collections": [
+      "Constant_ItobПарольРепликации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobПортSmsСервера",
+    "collections": [
+      "Constant_ItobПортSmsСервера"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ItobСервисОбратногоГеокодирования",
+    "collections": [
+      "Constant_ItobСервисОбратногоГеокодирования"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_Адрес",
+    "collections": [
+      "Constant_cgr_Адрес"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_ЗащищенноеСоединение",
+    "collections": [
+      "Constant_cgr_ЗащищенноеСоединение"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_Логин",
+    "collections": [
+      "Constant_cgr_Логин"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_Пароль",
+    "collections": [
+      "Constant_cgr_Пароль"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_Порт",
+    "collections": [
+      "Constant_cgr_Порт"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "cgr_Таймаут",
+    "collections": [
+      "Constant_cgr_Таймаут"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности",
+    "collections": [
+      "Constant_АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "АдресПубликацииИнформационнойБазыВИнтернете",
+    "collections": [
+      "Constant_АдресПубликацииИнформационнойБазыВИнтернете"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "АдресХраненияПрикрепленныхДокументов",
+    "collections": [
+      "Constant_АдресХраненияПрикрепленныхДокументов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "АдресХраненияПрикрепленныхСчетов",
+    "collections": [
+      "Constant_АдресХраненияПрикрепленныхСчетов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "АдресХраненияПрикрепленныхЮрДоговоров",
+    "collections": [
+      "Constant_АдресХраненияПрикрепленныхЮрДоговоров"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "Б24_ДатаМодификации",
+    "collections": [
+      "Constant_Б24_ДатаМодификации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "Б24_ДатаМодификацииЗагрузкаСчетов",
+    "collections": [
+      "Constant_Б24_ДатаМодификацииЗагрузкаСчетов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ВалютаРегламентированногоУчета",
+    "collections": [
+      "Constant_ВалютаРегламентированногоУчета"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВалютаРегламентированногоУчета_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВалютаУправленческогоУчета",
+    "collections": [
+      "Constant_ВалютаУправленческогоУчета"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВалютаУправленческогоУчета_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВерсияКлассификатораБанковРФ",
+    "collections": [
+      "Constant_ВерсияКлассификатораБанковРФ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ВидАдресаКонтрагента",
+    "collections": [
+      "Constant_ВидАдресаКонтрагента"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВидАдресаКонтрагента_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВидТелефонаКонтактногоЛица",
+    "collections": [
+      "Constant_ВидТелефонаКонтактногоЛица"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВидТелефонаКонтактногоЛица_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВидТелефонаКонтрагента",
+    "collections": [
+      "Constant_ВидТелефонаКонтрагента"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВидТелефонаКонтрагента_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВидЭлектроннойПочтыКонтактногоЛица",
+    "collections": [
+      "Constant_ВидЭлектроннойПочтыКонтактногоЛица"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВидЭлектроннойПочтыКонтактногоЛица_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ВидЭлектроннойПочтыКонтрагента",
+    "collections": [
+      "Constant_ВидЭлектроннойПочтыКонтрагента"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ВидЭлектроннойПочтыКонтрагента_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ГлавныйУзел",
+    "collections": [
+      "Constant_ГлавныйУзел"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаВеденияРемонтныхЛистовПоДокументамРасчета",
+    "collections": [
+      "Constant_ДатаВеденияРемонтныхЛистовПоДокументамРасчета"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаВключенияДокументооборотаСПеревозчиками",
+    "collections": [
+      "Constant_ДатаВключенияДокументооборотаСПеревозчиками"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаЗаполненияГСМПутевогоЛиста",
+    "collections": [
+      "Constant_ДатаЗаполненияГСМПутевогоЛиста"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаОбновленияПовторноИспользуемыхЗначенийМРО",
+    "collections": [
+      "Constant_ДатаОбновленияПовторноИспользуемыхЗначенийМРО"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаТекущейВерсии",
+    "collections": [
+      "Constant_ДатаТекущейВерсии"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДатаУведомленияОНовыхЗадачах",
+    "collections": [
+      "Constant_ДатаУведомленияОНовыхЗадачах"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДетализироватьОбновлениеИБВЖурналеРегистрации",
+    "collections": [
+      "Constant_ДетализироватьОбновлениеИБВЖурналеРегистрации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДобавлениеСотрудниковРемЛистаЧерезСканерШК",
+    "collections": [
+      "Constant_ДобавлениеСотрудниковРемЛистаЧерезСканерШК"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ДопускДокументовТС",
+    "collections": [
+      "Constant_ДопускДокументовТС"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ЕдиницаИзмеренияВеса",
+    "collections": [
+      "Constant_ЕдиницаИзмеренияВеса"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ЕдиницаИзмеренияВеса_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ЕдиницаИзмеренияОбъема",
+    "collections": [
+      "Constant_ЕдиницаИзмеренияОбъема"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ЕдиницаИзмеренияОбъема_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ЗаголовокСистемы",
+    "collections": [
+      "Constant_ЗаголовокСистемы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ЗагрузитьСообщениеОбменаДанными",
+    "collections": [
+      "Constant_ЗагрузитьСообщениеОбменаДанными"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ЗаказНаТСШтрафныеСанкцииПеревозчикаПоУмолчанию",
+    "collections": [
+      "Constant_ЗаказНаТСШтрафныеСанкцииПеревозчикаПоУмолчанию"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_ЗаказНаТСШтрафныеСанкцииПеревозчикаПоУмолчанию_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ЗапрещатьЗагрузкуФайловПоРасширению",
+    "collections": [
+      "Constant_ЗапрещатьЗагрузкуФайловПоРасширению"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИдентификаторИнформационнойБазы",
+    "collections": [
+      "Constant_ИдентификаторИнформационнойБазы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИзвлекатьТекстыФайловНаСервере",
+    "collections": [
+      "Constant_ИзвлекатьТекстыФайловНаСервере"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИзменятьЗаданияЗаднимЧислом",
+    "collections": [
+      "Constant_ИзменятьЗаданияЗаднимЧислом"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИнтервалПроверкиНапоминанийВСекундах",
+    "collections": [
+      "Constant_ИнтервалПроверкиНапоминанийВСекундах"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИнтерфейсВерсии77",
+    "collections": [
+      "Constant_ИнтерфейсВерсии77"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИнтерфейсВерсии82",
+    "collections": [
+      "Constant_ИнтерфейсВерсии82"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИнтерфейсТакси",
+    "collections": [
+      "Constant_ИнтерфейсТакси"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользованиеВстроенногоПочтовогоКлиента",
+    "collections": [
+      "Constant_ИспользованиеВстроенногоПочтовогоКлиента"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьБизнесПроцессыИЗадачи",
+    "collections": [
+      "Constant_ИспользоватьБизнесПроцессыИЗадачи"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьБюджетирование",
+    "collections": [
+      "Constant_ИспользоватьБюджетирование"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьБюджетныеПроцессы",
+    "collections": [
+      "Constant_ИспользоватьБюджетныеПроцессы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьВалютныйУчет",
+    "collections": [
+      "Constant_ИспользоватьВалютныйУчет"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьВерсионированиеОбъектов",
+    "collections": [
+      "Constant_ИспользоватьВерсионированиеОбъектов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьВнешнихПользователей",
+    "collections": [
+      "Constant_ИспользоватьВнешнихПользователей"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьГруппыПользователей",
+    "collections": [
+      "Constant_ИспользоватьГруппыПользователей"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьДатуИВремяВСрокахЗадач",
+    "collections": [
+      "Constant_ИспользоватьДатуИВремяВСрокахЗадач"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьДатуНачалаЗадач",
+    "collections": [
+      "Constant_ИспользоватьДатуНачалаЗадач"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьДополнительныеОтчетыИОбработки",
+    "collections": [
+      "Constant_ИспользоватьДополнительныеОтчетыИОбработки"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьДополнительныеРеквизитыИСведения",
+    "collections": [
+      "Constant_ИспользоватьДополнительныеРеквизитыИСведения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьНапоминанияПользователя",
+    "collections": [
+      "Constant_ИспользоватьНапоминанияПользователя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьНесколькоОрганизаций",
+    "collections": [
+      "Constant_ИспользоватьНесколькоОрганизаций"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьОбщиеДополнительныеЗначения",
+    "collections": [
+      "Constant_ИспользоватьОбщиеДополнительныеЗначения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьОбщиеДополнительныеРеквизитыИСведения",
+    "collections": [
+      "Constant_ИспользоватьОбщиеДополнительныеРеквизитыИСведения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьПодключаемоеОборудование",
+    "collections": [
+      "Constant_ИспользоватьПодключаемоеОборудование"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьПодчиненныеБизнесПроцессы",
+    "collections": [
+      "Constant_ИспользоватьПодчиненныеБизнесПроцессы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьПочтовыйКлиент",
+    "collections": [
+      "Constant_ИспользоватьПочтовыйКлиент"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьПризнакРассмотрено",
+    "collections": [
+      "Constant_ИспользоватьПризнакРассмотрено"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьРазделениеПоОбластямДанных",
+    "collections": [
+      "Constant_ИспользоватьРазделениеПоОбластямДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьСинхронизациюДанных",
+    "collections": [
+      "Constant_ИспользоватьСинхронизациюДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьСинхронизациюДанныхВЛокальномРежиме",
+    "collections": [
+      "Constant_ИспользоватьСинхронизациюДанныхВЛокальномРежиме"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьСинхронизациюДанныхВМоделиСервиса",
+    "collections": [
+      "Constant_ИспользоватьСинхронизациюДанныхВМоделиСервиса"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьШифрование",
+    "collections": [
+      "Constant_ИспользоватьШифрование"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользоватьЭлектронныеПодписи",
+    "collections": [
+      "Constant_ИспользоватьЭлектронныеПодписи"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИспользуютсяПрофилиБезопасности",
+    "collections": [
+      "Constant_ИспользуютсяПрофилиБезопасности"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ИсточникДанныхАдресногоКлассификатора",
+    "collections": [
+      "Constant_ИсточникДанныхАдресногоКлассификатора"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "КаталогСообщенийОбменаДаннымиДляLinux",
+    "collections": [
+      "Constant_КаталогСообщенийОбменаДаннымиДляLinux"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "КаталогСообщенийОбменаДаннымиДляWindows",
+    "collections": [
+      "Constant_КаталогСообщенийОбменаДаннымиДляWindows"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "КликКаталоСохраненияФайлов",
+    "collections": [
+      "Constant_КликКаталоСохраненияФайлов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "КоличествоЭлементовВТранзакцииЗагрузкиДанных",
+    "collections": [
+      "Constant_КоличествоЭлементовВТранзакцииЗагрузкиДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "КонтурФокус_ИспользоватьПроверкуДокументовПередЗаписью",
+    "collections": [
+      "Constant_КонтурФокус_ИспользоватьПроверкуДокументовПередЗаписью"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "МаксимальныйРазмерФайла",
+    "collections": [
+      "Constant_МаксимальныйРазмерФайла"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "МаксимальныйРазмерФайлаОбластиДанных",
+    "collections": [
+      "Constant_МаксимальныйРазмерФайлаОбластиДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "Мойка_ДоговорКонтрагента",
+    "collections": [
+      "Constant_Мойка_ДоговорКонтрагента"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_Мойка_ДоговорКонтрагента_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "Мойка_Номенклатура",
+    "collections": [
+      "Constant_Мойка_Номенклатура"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_Мойка_Номенклатура_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "Мойка_ЧастноеЛицо",
+    "collections": [
+      "Constant_Мойка_ЧастноеЛицо"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_Мойка_ЧастноеЛицо_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "НастройкаПодчиненногоУзлаРИБЗавершена",
+    "collections": [
+      "Constant_НастройкаПодчиненногоУзлаРИБЗавершена"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НастройкаПроксиСервера",
+    "collections": [
+      "Constant_НастройкаПроксиСервера"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НастройкиВыполненияРегламентныхЗаданий",
+    "collections": [
+      "Constant_НастройкиВыполненияРегламентныхЗаданий"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НастройкиКолонтитуловПоУмолчанию",
+    "collections": [
+      "Constant_НастройкиКолонтитуловПоУмолчанию"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НастройкиПодчиненногоУзлаРИБ",
+    "collections": [
+      "Constant_НастройкиПодчиненногоУзлаРИБ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НеИспользоватьНесколькоОрганизаций",
+    "collections": [
+      "Constant_НеИспользоватьНесколькоОрганизаций"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "НеИспользоватьРазделениеПоОбластямДанных",
+    "collections": [
+      "Constant_НеИспользоватьРазделениеПоОбластямДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ОтправлятьПисьмаВФорматеHTML",
+    "collections": [
+      "Constant_ОтправлятьПисьмаВФорматеHTML"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_БазоваяСтавка",
+    "collections": [
+      "Constant_П_БазоваяСтавка"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаВводаАдресногоСклада",
+    "collections": [
+      "Constant_П_ДатаВводаАдресногоСклада"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаВеденияВзаиморасчетовПоТелефоннымЗвонкам",
+    "collections": [
+      "Constant_П_ДатаВеденияВзаиморасчетовПоТелефоннымЗвонкам"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаВеденияПроводкиПоБонусу",
+    "collections": [
+      "Constant_П_ДатаВеденияПроводкиПоБонусу"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаВыделениеНДС",
+    "collections": [
+      "Constant_П_ДатаВыделениеНДС"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаДеленияСобственныйПривлеченный",
+    "collections": [
+      "Constant_П_ДатаДеленияСобственныйПривлеченный"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаЗапретаРедактированияРемЛистов",
+    "collections": [
+      "Constant_П_ДатаЗапретаРедактированияРемЛистов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДатаНачалаВзаиморасчетовПоДокументамСПеревозчиком",
+    "collections": [
+      "Constant_П_ДатаНачалаВзаиморасчетовПоДокументамСПеревозчиком"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаДокументы",
+    "collections": [
+      "Constant_П_ДоплатаЗаДокументы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаПодвес",
+    "collections": [
+      "Constant_П_ДоплатаЗаПодвес"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаПростой",
+    "collections": [
+      "Constant_П_ДоплатаЗаПростой"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСверх10000",
+    "collections": [
+      "Constant_П_ДоплатаЗаСверх10000"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСтаж",
+    "collections": [
+      "Constant_П_ДоплатаЗаСтаж"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСтаж1_3",
+    "collections": [
+      "Constant_П_ДоплатаЗаСтаж1_3"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСтаж3",
+    "collections": [
+      "Constant_П_ДоплатаЗаСтаж3"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСуточные",
+    "collections": [
+      "Constant_П_ДоплатаЗаСуточные"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ДоплатаЗаСуточныеСтажер",
+    "collections": [
+      "Constant_П_ДоплатаЗаСуточныеСтажер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_КонтрагентКроссДок",
+    "collections": [
+      "Constant_П_КонтрагентКроссДок"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_П_КонтрагентКроссДок_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "П_НоменклатураДляПроводокТелефонногоЗвонка",
+    "collections": [
+      "Constant_П_НоменклатураДляПроводокТелефонногоЗвонка"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_П_НоменклатураДляПроводокТелефонногоЗвонка_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "П_ПроцентБалансСТО",
+    "collections": [
+      "Constant_П_ПроцентБалансСТО"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_СреднийСрокДоставкиДокументов",
+    "collections": [
+      "Constant_П_СреднийСрокДоставкиДокументов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_СрокОбработкиИОтправкиДокументов",
+    "collections": [
+      "Constant_П_СрокОбработкиИОтправкиДокументов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_СтатьяЗатратБонус",
+    "collections": [
+      "Constant_П_СтатьяЗатратБонус"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_П_СтатьяЗатратБонус_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "П_ТелефонГенДиректора",
+    "collections": [
+      "Constant_П_ТелефонГенДиректора"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ТелефонРуководителяЭксплуатации",
+    "collections": [
+      "Constant_П_ТелефонРуководителяЭксплуатации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_УдержаниеЗаНарушениеПДД",
+    "collections": [
+      "Constant_П_УдержаниеЗаНарушениеПДД"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_УслугиБанка",
+    "collections": [
+      "Constant_П_УслугиБанка"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_П_УслугиБанка_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "П_ЦенаУдержанияЗаПерерасход",
+    "collections": [
+      "Constant_П_ЦенаУдержанияЗаПерерасход"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ЦенаУдержанияЗаПерерасходДоп",
+    "collections": [
+      "Constant_П_ЦенаУдержанияЗаПерерасходДоп"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыАдминистрированияИБ",
+    "collections": [
+      "Constant_ПараметрыАдминистрированияИБ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыДополнительныхРеквизитовИСведений",
+    "collections": [
+      "Constant_ПараметрыДополнительныхРеквизитовИСведений"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыПереходаСРедакции20",
+    "collections": [
+      "Constant_ПараметрыПереходаСРедакции20"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыРаботыПользователей",
+    "collections": [
+      "Constant_ПараметрыРаботыПользователей"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыСлужебныхСобытий",
+    "collections": [
+      "Constant_ПараметрыСлужебныхСобытий"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПараметрыСообщенияПриОбращенииВОтделТехническойПоддержки",
+    "collections": [
+      "Constant_ПараметрыСообщенияПриОбращенииВОтделТехническойПоддержки"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском",
+    "collections": [
+      "Constant_ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПрефиксУзлаРаспределеннойИнформационнойБазы",
+    "collections": [
+      "Constant_ПрефиксУзлаРаспределеннойИнформационнойБазы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПрименятьДатуЗапретаДляПолныхПрав",
+    "collections": [
+      "Constant_ПрименятьДатуЗапретаДляПолныхПрав"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПроверятьЭлектронныеПодписиНаСервере",
+    "collections": [
+      "Constant_ПроверятьЭлектронныеПодписиНаСервере"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ПрофильБезопасностиИнформационнойБазы",
+    "collections": [
+      "Constant_ПрофильБезопасностиИнформационнойБазы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "РазделыОписанияИзмененийСистемы",
+    "collections": [
+      "Constant_РазделыОписанияИзмененийСистемы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "РассылкаПростойТС",
+    "collections": [
+      "Constant_РассылкаПростойТС"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СведенияОбОбновленииИБ",
+    "collections": [
+      "Constant_СведенияОбОбновленииИБ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СлужебнаяЭлектроннаяПочта",
+    "collections": [
+      "Constant_СлужебнаяЭлектроннаяПочта"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_СлужебнаяЭлектроннаяПочта_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "СоздаватьЭлектронныеПодписиНаСервере",
+    "collections": [
+      "Constant_СоздаватьЭлектронныеПодписиНаСервере"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СообщениеОбменаДаннымиИзГлавногоУзла",
+    "collections": [
+      "Constant_СообщениеОбменаДаннымиИзГлавногоУзла"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СписокЗапрещенныхРасширений",
+    "collections": [
+      "Constant_СписокЗапрещенныхРасширений"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СписокЗапрещенныхРасширенийОбластиДанных",
+    "collections": [
+      "Constant_СписокЗапрещенныхРасширенийОбластиДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СписокРасширенийТекстовыхФайлов",
+    "collections": [
+      "Constant_СписокРасширенийТекстовыхФайлов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СписокРасширенийФайловOpenDocument",
+    "collections": [
+      "Constant_СписокРасширенийФайловOpenDocument"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СписокРасширенийФайловOpenDocumentОбластиДанных",
+    "collections": [
+      "Constant_СписокРасширенийФайловOpenDocumentОбластиДанных"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "СтатусОбновленияКонфигурации",
+    "collections": [
+      "Constant_СтатусОбновленияКонфигурации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьАлгоритмПодписи",
+    "collections": [
+      "Constant_УдалитьАлгоритмПодписи"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьАлгоритмХеширования",
+    "collections": [
+      "Constant_УдалитьАлгоритмХеширования"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьАлгоритмШифрования",
+    "collections": [
+      "Constant_УдалитьАлгоритмШифрования"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьНомерВерсииКонфигурации",
+    "collections": [
+      "Constant_УдалитьНомерВерсииКонфигурации"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьПоказыватьКомандуДополнительныеПечатныеФормы",
+    "collections": [
+      "Constant_УдалитьПоказыватьКомандуДополнительныеПечатныеФормы"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьПровайдерЭП",
+    "collections": [
+      "Constant_УдалитьПровайдерЭП"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УдалитьТипПровайдераЭП",
+    "collections": [
+      "Constant_УдалитьТипПровайдераЭП"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "УзелВыгрузки",
+    "collections": [
+      "Constant_УзелВыгрузки"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_УзелВыгрузки_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УзелВыгрузкиЦРМ",
+    "collections": [
+      "Constant_УзелВыгрузкиЦРМ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_УзелВыгрузкиЦРМ_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "УстройствоПлатон",
+    "collections": [
+      "Constant_УстройствоПлатон"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_УстройствоПлатон_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "ХранитьФайлыВТомахНаДиске",
+    "collections": [
+      "Constant_ХранитьФайлыВТомахНаДиске"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ШаблоныТелефонныхНомеров",
+    "collections": [
+      "Constant_ШаблоныТелефонныхНомеров"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ЭтоАвтономноеРабочееМесто",
+    "collections": [
+      "Constant_ЭтоАвтономноеРабочееМесто"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSИмяПользователя",
+    "collections": [
+      "Constant_уатSMSИмяПользователя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSИмяПользователяПоУмолчанию",
+    "collections": [
+      "Constant_уатSMSИмяПользователяПоУмолчанию"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSИнтервалПроверкиSMS",
+    "collections": [
+      "Constant_уатSMSИнтервалПроверкиSMS"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSИспользовать",
+    "collections": [
+      "Constant_уатSMSИспользовать"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSИспользуемыйСервис",
+    "collections": [
+      "Constant_уатSMSИспользуемыйСервис"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSКонецПериодаЗапрета",
+    "collections": [
+      "Constant_уатSMSКонецПериодаЗапрета"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSНачалоПериодаЗапрета",
+    "collections": [
+      "Constant_уатSMSНачалоПериодаЗапрета"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.DateTime",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSНеОтправлятьSMS",
+    "collections": [
+      "Constant_уатSMSНеОтправлятьSMS"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПарольПользователя",
+    "collections": [
+      "Constant_уатSMSПарольПользователя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПолучатьТолькоПолныеСообщения",
+    "collections": [
+      "Constant_уатSMSПолучатьТолькоПолныеСообщения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПроксиПароль",
+    "collections": [
+      "Constant_уатSMSПроксиПароль"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПроксиПользователь",
+    "collections": [
+      "Constant_уатSMSПроксиПользователь"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПроксиПорт",
+    "collections": [
+      "Constant_уатSMSПроксиПорт"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSПроксиСервер",
+    "collections": [
+      "Constant_уатSMSПроксиСервер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатSMSРоботРегламентныхЗаданий",
+    "collections": [
+      "Constant_уатSMSРоботРегламентныхЗаданий"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Value",
+        "relationship": "StandardODATA.Constant_уатSMSРоботРегламентныхЗаданий_Value",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатSMSСрокЖизниSMS",
+    "collections": [
+      "Constant_уатSMSСрокЖизниSMS"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int16",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервераDevinotele",
+    "collections": [
+      "Constant_уатАдресСервераDevinotele"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаDynafleet",
+    "collections": [
+      "Constant_уатАдресСервисаDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаOmnicomm",
+    "collections": [
+      "Constant_уатАдресСервисаOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаPositionReport",
+    "collections": [
+      "Constant_уатАдресСервисаPositionReport"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаWialon",
+    "collections": [
+      "Constant_уатАдресСервисаWialon"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаАвтоГРАФ",
+    "collections": [
+      "Constant_уатАдресСервисаАвтоГРАФ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаАвтотрекер",
+    "collections": [
+      "Constant_уатАдресСервисаАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатАдресСервисаСКАУТ",
+    "collections": [
+      "Constant_уатАдресСервисаСКАУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатВестиЛогWSМПВУАТ",
+    "collections": [
+      "Constant_уатВестиЛогWSМПВУАТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатДрайверВСистемеOmnicomm",
+    "collections": [
+      "Constant_уатДрайверВСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИмяDSNСистемеOmnicomm",
+    "collections": [
+      "Constant_уатИмяDSNСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИмяPIPEСистемеOmnicomm",
+    "collections": [
+      "Constant_уатИмяPIPEСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИмяБДВСистемеOmnicomm",
+    "collections": [
+      "Constant_уатИмяБДВСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИнтервалДетализацииDynafleet",
+    "collections": [
+      "Constant_уатИнтервалДетализацииDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьDynafleet",
+    "collections": [
+      "Constant_уатИспользоватьDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьOmnicomm",
+    "collections": [
+      "Constant_уатИспользоватьOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьPositionReport",
+    "collections": [
+      "Constant_уатИспользоватьPositionReport"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьWialon",
+    "collections": [
+      "Constant_уатИспользоватьWialon"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьАвтоГРАФ",
+    "collections": [
+      "Constant_уатИспользоватьАвтоГРАФ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьАвтотрекер",
+    "collections": [
+      "Constant_уатИспользоватьАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьМобильноеПриложениеВодителя",
+    "collections": [
+      "Constant_уатИспользоватьМобильноеПриложениеВодителя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьМониторинг",
+    "collections": [
+      "Constant_уатИспользоватьМониторинг"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьНапоминанияПользователя",
+    "collections": [
+      "Constant_уатИспользоватьНапоминанияПользователя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьСКАУТ",
+    "collections": [
+      "Constant_уатИспользоватьСКАУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьУчетБилетовИВыручки",
+    "collections": [
+      "Constant_уатИспользоватьУчетБилетовИВыручки"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьЦСМ",
+    "collections": [
+      "Constant_уатИспользоватьЦСМ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользоватьШтрихкодированиеПутевыхЛистов",
+    "collections": [
+      "Constant_уатИспользоватьШтрихкодированиеПутевыхЛистов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатИспользуемаяСистемаGPS",
+    "collections": [
+      "Constant_уатИспользуемаяСистемаGPS"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатКоэффициентЕдиницыИзмеренияВеса",
+    "collections": [
+      "Constant_уатКоэффициентЕдиницыИзмеренияВеса"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатКоэффициентЕдиницыИзмеренияОбъема",
+    "collections": [
+      "Constant_уатКоэффициентЕдиницыИзмеренияОбъема"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЛогинВСистемеDynafleet",
+    "collections": [
+      "Constant_уатЛогинВСистемеDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЛогинВСистемеOmnicomm",
+    "collections": [
+      "Constant_уатЛогинВСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЛогинВСистемеPositionReport",
+    "collections": [
+      "Constant_уатЛогинВСистемеPositionReport"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЛогинВСистемеАвтотрекер",
+    "collections": [
+      "Constant_уатЛогинВСистемеАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатЛогинВСистемеСКАУТ",
+    "collections": [
+      "Constant_уатЛогинВСистемеСКАУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНастройкаФормированияНаименованийАгрегатов",
+    "collections": [
+      "Constant_уатНастройкаФормированияНаименованийАгрегатов"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНастройкиМобильногоПриложенияВодителя",
+    "collections": [
+      "Constant_уатНастройкиМобильногоПриложенияВодителя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНастройкиХраненияИсторииМестоположения",
+    "collections": [
+      "Constant_уатНастройкиХраненияИсторииМестоположения"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНеОбъединеннаяКонфигурацияСБП",
+    "collections": [
+      "Constant_уатНеОбъединеннаяКонфигурацияСБП"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатНомерВерсииКонфигурацииУАТПроф1",
+    "collections": [
+      "Constant_уатНомерВерсииКонфигурацииУАТПроф1"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОбщийКаталог",
+    "collections": [
+      "Constant_уатОбщийКаталог"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОбъединеннаяКонфигурацияСБП",
+    "collections": [
+      "Constant_уатОбъединеннаяКонфигурацияСБП"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатОбъединеннаяКонфигурацияСУТ",
+    "collections": [
+      "Constant_уатОбъединеннаяКонфигурацияСУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыМобильногоПриложенияВодителя",
+    "collections": [
+      "Constant_уатПараметрыМобильногоПриложенияВодителя"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхDynafleet",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхOmnicomm",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхWialon",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхWialon"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхАвтоГРАФ",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхАвтоГРАФ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхАвтотрекер",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПараметрыРеглЗаданияЗагрузкаДанныхСКАУТ",
+    "collections": [
+      "Constant_уатПараметрыРеглЗаданияЗагрузкаДанныхСКАУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПарольВСистемеDynafleet",
+    "collections": [
+      "Constant_уатПарольВСистемеDynafleet"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПарольВСистемеOmnicomm",
+    "collections": [
+      "Constant_уатПарольВСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПарольВСистемеPositionReport",
+    "collections": [
+      "Constant_уатПарольВСистемеPositionReport"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПарольВСистемеАвтотрекер",
+    "collections": [
+      "Constant_уатПарольВСистемеАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПарольВСистемеСКАУТ",
+    "collections": [
+      "Constant_уатПарольВСистемеСКАУТ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПериодичностьХраненияДанныхПоGPS",
+    "collections": [
+      "Constant_уатПериодичностьХраненияДанныхПоGPS"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПортСервисаАвтотрекер",
+    "collections": [
+      "Constant_уатПортСервисаАвтотрекер"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПространствоИменСервисаPositionReport",
+    "collections": [
+      "Constant_уатПространствоИменСервисаPositionReport"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатСведенияОбОбновленииИБ",
+    "collections": [
+      "Constant_уатСведенияОбОбновленииИБ"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value_Base64Data",
+        "type": "Edm.Binary",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      },
+      {
+        "name": "Value_Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Value",
+        "type": "Edm.Stream",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатСерверВСистемеOmnicomm",
+    "collections": [
+      "Constant_уатСерверВСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатСпособПодключенияКСистемеOmnicomm",
+    "collections": [
+      "Constant_уатСпособПодключенияКСистемеOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатСпособРаботыСOmnicomm",
+    "collections": [
+      "Constant_уатСпособРаботыСOmnicomm"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатТокенВСистемеWialon",
+    "collections": [
+      "Constant_уатТокенВСистемеWialon"
+    ],
+    "keys": [
+      "SurrogateKey"
+    ],
+    "properties": [
+      {
+        "name": "Value",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "SurrogateKey",
+        "type": "Edm.Int16",
+        "nullable": "false"
+      }
+    ],
+    "navigation": []
+  }
+]

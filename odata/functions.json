@@ -1,0 +1,5102 @@
+[
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_Закупки_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЧасыРабот_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЧасыРабот_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатСписаниеАгрегатов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатБилетыНаСкладах_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатБилетыНаСкладах_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатБилетыНаСкладах_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатИзносПробегШин_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоОтчетамПоставщиковПЦ_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ПланФактРасходаДС1_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ПланФактРасходаДС1_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ПланФактРасходаДС1_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьУатОборотыБюджетов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатГрафикРаботыРесурсов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатГрафикРаботыРесурсов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДопСебестоимостьРемЛист_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДопСебестоимостьРемЛист_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_Продажи_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_УдержанияСотрудников_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_УдержанияСотрудников_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_УдержанияСотрудников_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПростои_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "ExtDimensions",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_ExtDimensions)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "RecordsWithExtDimensions",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_RecordsWithExtDimensions)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "DrCrTurnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_УдалитьУатБюджетирование_DrCrTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыработкаАгрегатов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПричиныОтклоненияЗаказов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПричиныОтклоненияЗаказов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатНоменклатураТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАгрегатыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАгрегатыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАрхивДанныхРегламентированнойОтчетности_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАрхивДанныхРегламентированнойОтчетности_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоМаршрутномуЛисту_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОборотыПоЗаправкамГСМ_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС1_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС1_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС1_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьП_ПланФактРасходаДС_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЦелевыеЗначенияПоБюджетам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЦелевыеЗначенияПоБюджетам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПредоставленныеУслуги_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_ПотребностьКлиента_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_ПотребностьКлиента_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_ПотребностьКлиента_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРасходованиеДС_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРасходованиеДС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРасходованиеДС_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗатратыТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМестонахождениеТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМестонахождениеТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПланированиеРаботыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПланированиеРаботыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПрейскурантыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПрейскурантыТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПрохождениеТО_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПрохождениеТО_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСостояниеТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСостояниеТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСчетчикиТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСчетчикиТС_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТарифыСотрудников_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТарифыСотрудников_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатЦеныНоменклатурыКонтрагентов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатЦеныНоменклатурыКонтрагентов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатГраницыПериодовБюджетирования_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатГраницыПериодовБюджетирования_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЗависимостиОборотовПоСтатьямБюджетирования_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЗависимостиОборотовПоСтатьямБюджетирования_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатУстановкаОграниченийПоБюджетам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатУстановкаОграниченийПоБюджетам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РегистрацияСоставаТСПоПутевымЛистам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РегистрацияСоставаТСПоПутевымЛистам_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НачислениеЗП_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НачислениеЗП_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостояниеРемонтногоЛиста_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостояниеРемонтногоЛиста_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИнформацияОПрохожденииТО_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИнформацияОПрохожденииТО_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГрафикиПроцентныхРасходов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГрафикиПроцентныхРасходов_RecordType)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ДенежныеСредства_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ДенежныеСредства_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ДенежныеСредства_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_ОборотыБюджетов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВзаиморасчетыСКонтрагентами_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВзаиморасчетыСКонтрагентами_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВзаиморасчетыСКонтрагентами_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыработкаПоСтоимости_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыработкаСотрудников_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыработкаТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыручка_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатВыставленныеУслуги_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатДвижениеДС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаказыГрузоотправителей_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаказыГрузоотправителей_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаказыГрузоотправителей_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗатратыПоВидамПеревозок_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРемонт_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРемонт_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатЗаявкиНаРемонт_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиАгрегатов_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиАгрегатов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиАгрегатов_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиГСМнаТС_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиГСМнаТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиГСМнаТС_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиТЖнаТС_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиТЖнаТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатОстаткиТЖнаТС_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПартииТоваровНаСкладах_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПартииТоваровНаСкладах_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПартииТоваровНаСкладах_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатПланРаботыТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатРабочееВремяСотрудников_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатРасходГСМнаТС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_уатРасходТехническихЖидкостей_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_УдалитьУатКонтролируемыеЗначенияБюджетов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_РеестрСчетов_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_РеестрСчетов_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_РеестрСчетов_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_АдресноеХранение_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_АдресноеХранение_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_АдресноеХранение_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ПрибыльСебестоимостьРемЛиста_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_П_ЗарплатаАвтомойки_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccumulationRegister_ПланДДС_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Balance",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_Balance)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Turnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_Turnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BalanceAndTurnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_BalanceAndTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "ExtDimensions",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_ExtDimensions)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "RecordsWithExtDimensions",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_RecordsWithExtDimensions)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "DrCrTurnovers",
+    "returnType": "Collection(StandardODATA.AccountingRegister_Хозрасчетный_DrCrTurnover)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "уатПерерасчетОсновныхНачислений",
+    "returnType": "Collection(StandardODATA.CalculationRegister_уатОсновныеНачисления_уатПерерасчетОсновныхНачислений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "BaseуатОсновныеНачисления",
+    "returnType": "Collection(StandardODATA.CalculationRegister_уатОсновныеНачисления_BaseуатОсновныеНачисления)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТарифыДоставкиДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТарифыДоставкиДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ns_НастройкиБитрикс24)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ns_НастройкиБитрикс24)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансДолгКредиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансДолгКредиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СвязиПоказателейБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СвязиПоказателейБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_БюджетныеЛимиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_БюджетныеЛимиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobСтатистикаРепликации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobСтатистикаРепликации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТСЛогисты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТСЛогисты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobГеографическийКлассификатор)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobГеографическийКлассификатор)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИзмененияПоСпискам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИзмененияПоСпискам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УсловияФакторингаДляПеревозчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УсловияФакторингаДляПеревозчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтоимостьПоВидамМойки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтоимостьПоВидамМойки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОТемпературе_Wialon)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОТемпературе_Wialon)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПредметыПапкиВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПредметыПапкиВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УведомленияОПрочтении)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УведомленияОПрочтении)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ОтветыСервера)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ОтветыСервера)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтатусыСчетовПеревозчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтатусыСчетовПеревозчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗначенияДопРеквизитовЗагрузкаРазгрузка)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗначенияДопРеквизитовЗагрузкаРазгрузка)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗаявкиДляФормированияРеестра1)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗаявкиДляФормированияРеестра1)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГрузоподъемностьТекстДоговора)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГрузоподъемностьТекстДоговора)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормочасыРаботПоРемонту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормочасыРаботПоРемонту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатЭкипажТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатЭкипажТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobКэшГеокодера)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobКэшГеокодера)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияПроверок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияПроверок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПричиныИзмененияАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПричиныИзмененияАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналТелеграм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналТелеграм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПользователиМобильногоПриложения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПользователиМобильногоПриложения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ОперацияРазрешена)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ОперацияРазрешена)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиВыгрузкиРеестраСчетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиВыгрузкиРеестраСчетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПараметрыРасчетаЗП)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПараметрыРасчетаЗП)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПользовательскиеНастройкиДоступаКОбработкам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПользовательскиеНастройкиДоступаКОбработкам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "ExecuteTask",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтклоненияПогрузкиРазгрузки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтклоненияПогрузкиРазгрузки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗначенияДопРеквизитовЗаказНаТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗначенияДопРеквизитовЗаказНаТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансКредитыФЛ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансКредитыФЛ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределеннаяПрибыль)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределеннаяПрибыль)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбщиеНастройкиУзловИнформационныхБаз)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбщиеНастройкиУзловИнформационныхБаз)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатДополнительныеСведения_Ред2)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатДополнительныеСведения_Ред2)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатКартинкиИФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатКартинкиИФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОриентирыАдресныхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОриентирыАдресныхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СчетаПеревозчиковПрикрепленныеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СчетаПеревозчиковПрикрепленныеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияКонтактовВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияКонтактовВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОповещенияИнициаторовПоступлений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОповещенияИнициаторовПоступлений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМестоположениеПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМестоположениеПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПраваИНастройки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПраваИНастройки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НапоминанияПользователя)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НапоминанияПользователя)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДвижениеМатериалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДвижениеМатериалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ПараметрыСписковПроверок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ПараметрыСписковПроверок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СуммыПлатежейПоСтатьямЗатрат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СуммыПлатежейПоСтатьямЗатрат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НаличиеДублейУКонтрагентов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НаличиеДублейУКонтрагентов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьЖурналСинхронизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьЖурналСинхронизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДействияПоРемонтнымЛистам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДействияПоРемонтнымЛистам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_КоличествоДнейПоВидуПеревозки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_КоличествоДнейПоВидуПеревозки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РезультатыОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РезультатыОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДокументыТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДокументыТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРасписаниеРейсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРасписаниеРейсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтатусыОбработкиВидаБюджета)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СтатусыОбработкиВидаБюджета)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_МестонахождениеТСПоКонтрагенту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_МестонахождениеТСПоКонтрагенту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobАктуальностьДанныхТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobАктуальностьДанныхТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналПисемВосстановления)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналПисемВосстановления)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьЗначенияСвойствОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьЗначенияСвойствОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Post",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Unpost",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьАдресныйКлассификатор)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьАдресныйКлассификатор)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПромежуточныйКонтрольЗаказовНаТс)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПромежуточныйКонтрольЗаказовНаТс)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаПолученияФактаПоСтатьямБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаПолученияФактаПоСтатьямБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенияНаИспользованиеВнешнихРесурсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенияНаИспользованиеВнешнихРесурсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ФИОФизическихЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ФИОФизическихЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ЖурналСобытий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ЖурналСобытий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаДляОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаДляОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РежимыПодключенияВнешнихМодулей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РежимыПодключенияВнешнихМодулей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_АдресныеОбъекты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_АдресныеОбъекты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobПривязкиТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobПривязкиТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансКредитыПроч)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансКредитыПроч)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеВыгружаемыхДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеВыгружаемыхДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтложенныеСообщенияТелеграмм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтложенныеСообщенияТелеграмм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансНалогиМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансНалогиМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОПробеге_МЧ_Wialon)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОПробеге_МЧ_Wialon)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеКонтрагентовАвтомойки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеКонтрагентовАвтомойки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеРСВидуРемонта)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеРСВидуРемонта)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_БлокировкиСеансовОбластейДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_БлокировкиСеансовОбластейДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДокументыВодителей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДокументыВодителей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobДанныеДатчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobДанныеДатчиков)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobДанныеТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobДанныеТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobКрайниеДанныеТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobКрайниеДанныеТерминалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СообщенияОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СообщенияОбменаДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobПараметрыЗаполненияПЛ_ПоДаннымGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ItobПараметрыЗаполненияПЛ_ПоДаннымGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВерсииОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВерсииОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВерсииПодсистем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВерсииПодсистем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеБизнесПроцессов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеБизнесПроцессов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОбъектовДляРегистрацииВОбменах)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДанныеОбъектовДляРегистрацииВОбменах)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДатыЗапретаИзменения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДатыЗапретаИзменения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДокументыФизическихЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДокументыФизическихЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДомаЗданияСтроения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДомаЗданияСтроения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДополнительныеАдресныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДополнительныеАдресныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДополнительныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДополнительныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗагруженныеВерсииАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗагруженныеВерсииАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИдентификаторыПолученныхЭлектронныхПисем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИдентификаторыПолученныхЭлектронныхПисем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИзмененияОбщихДанныхУзлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИзмененияОбщихДанныхУзлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИсполнителиЗадач)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИсполнителиЗадач)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИсторияАдресныхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ИсторияАдресныхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КодировкиВерсийФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КодировкиВерсийФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтактыВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтактыВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КурсыВалют)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КурсыВалют)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КэшПрограммныхИнтерфейсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КэшПрограммныхИнтерфейсов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НазначениеДополнительныхОбработок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НазначениеДополнительныхОбработок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НаличиеПрисоединенныхФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НаличиеПрисоединенныхФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиВерсионированияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиВерсионированияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиТранспортаОбмена)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиТранспортаОбмена)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиУчетныхЗаписейЭлектроннойПочты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкиУчетныхЗаписейЭлектроннойПочты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НоменклатураКонтрагентов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НоменклатураКонтрагентов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НомераОтсканированныхФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НомераОтсканированныхФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтветственныеЛицаОрганизаций)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтветственныеЛицаОрганизаций)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПодключаемоеОборудованиеПоРабочимМестам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПодключаемоеОборудованиеПоРабочимМестам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПользовательскиеМакетыПечати)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПользовательскиеМакетыПечати)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаПолученияФактаПоПоказателямБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПравилаПолученияФактаПоПоказателямБюджетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрисоединенныеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрисоединенныеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрогнозныеКурсыСценариев)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрогнозныеКурсыСценариев)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПубличныеИдентификаторыСинхронизируемыхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПубличныеИдентификаторыСинхронизируемыхОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РабочиеКаталогиФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РабочиеКаталогиФайлов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СлужебныеАдресныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СлужебныеАдресныеСведения)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствияОбъектовИнформационныхБаз)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствияОбъектовИнформационныхБаз)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоставыГруппПользователей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоставыГруппПользователей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияОбменовДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияОбменовДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияПапокПисем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияПапокПисем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияПредметовВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияПредметовВзаимодействий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияУспешныхОбменовДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СостоянияУспешныхОбменовДанными)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СохраненныеНастройки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СохраненныеНастройки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТекущиеКадровыеДанныеСотрудников)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ТекущиеКадровыеДанныеСотрудников)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатSMSПараметры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатSMSПараметры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатSMSСостоянияСообщений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатSMSСостоянияСообщений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДоступКДокументам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДоступКДокументам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАналогиГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатАналогиГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатВодителиНаЛинии)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатВодителиНаЛинии)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьОтветственныеЛица)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьОтветственныеЛица)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатГрафикиРаботыПоВидамВремени)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатГрафикиРаботыПоВидамВремени)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДополнительныеСведенияПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДополнительныеСведенияПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДоступКСправочникам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатДоступКСправочникам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатИсторияМестоположенияПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатИсторияМестоположенияПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМинимальныеОстаткиНоменклатуры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатМинимальныеОстаткиНоменклатуры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНоменклатураГрузов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНоменклатураГрузов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтрольСтатус)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтрольСтатус)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНоменклатураГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНоменклатураГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормыРасходаГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормыРасходаГСМ)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенныеОрганизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенныеОрганизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормыРасходаТехническихЖидкостей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНормыРасходаТехническихЖидкостей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНумерацияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатНумерацияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПараметрыАвторизацииТерминала)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатПараметрыАвторизацииТерминала)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРасстоянияМеждуПунктами)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРасстоянияМеждуПунктами)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегионыДоставки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегионыДоставки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегистрацияОснованийДляЗаказовНаТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегистрацияОснованийДляЗаказовНаТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегламентированныйПроизводственныйКалендарь)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатРегламентированныйПроизводственныйКалендарь)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСведенияОСотрудниках)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСведенияОСотрудниках)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСведенияОТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСведенияОТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСвязанныеРаботыПоРемонту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСвязанныеРаботыПоРемонту)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСообщенияВодителям)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСообщенияВодителям)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСообщенияОтВодителей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСообщенияОтВодителей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСоставТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСоставТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСтатьиЗатратНоменклатуры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСтатьиЗатратНоменклатуры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСчетчикиВыгрузок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатСчетчикиВыгрузок)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТекущееМестоположениеПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТекущееМестоположениеПоGPS)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТиповыеДокументы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатТиповыеДокументы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатУчтенныеЗаказыПокупателя)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатУчтенныеЗаказыПокупателя)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатШтрихкоды)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_уатШтрихкоды)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьБлокировкиСеансовОбластиДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьБлокировкиСеансовОбластиДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьВерсииПодсистем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьВерсииПодсистем)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьГраницыЗапретаИзмененияДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьГраницыЗапретаИзмененияДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьДополнительныеЗначенияАналитикЭкземпляраБюджета)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьДополнительныеЗначенияАналитикЭкземпляраБюджета)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_КэшДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_КэшДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьКатегорииОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьКатегорииОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьКонтактнаяИнформация)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьКонтактнаяИнформация)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьНастройкиВерсионированияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьНастройкиВерсионированияОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьНастройкиПользователей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьНастройкиПользователей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьПаспортныеДанныеФизЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьПаспортныеДанныеФизЛиц)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьСтраныМира)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьСтраныМира)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьСтратегииРедактированияНомеровОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьСтратегииРедактированияНомеровОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЗначенияСвойствОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УдалитьУатЗначенияСвойствОбъектов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УровниСокращенийАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УровниСокращенийАдресныхСведений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_УчетнаяПолитика)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_УчетнаяПолитика)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ФайлыВРабочемКаталоге)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ФайлыВРабочемКаталоге)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ХранимыеФайлыВерсий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ХранимыеФайлыВерсий)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_СписокКредитов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_СписокКредитов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КраткосрочныеКредиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КраткосрочныеКредиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПроцентМаржи)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПроцентМаржи)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкаВыводаСчетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НастройкаВыводаСчетов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтактыДляРассылкиТелеграм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_КонтактыДляРассылкиТелеграм)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбязательныеПлатежи)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбязательныеПлатежи)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансЛизинг)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_П_БалансЛизинг)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПроцентноеДелениеСтатейЗатрат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПроцентноеДелениеСтатейЗатрат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_БезОбзвонаРекомендаций)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_БезОбзвонаРекомендаций)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеВидовМойкиНоменклатуре)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеВидовМойкиНоменклатуре)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеДопОрганизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_СоответствиеДопОрганизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПричиныПереносаДат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПричиныПереносаДат)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбзвонСтороннегоТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОбзвонСтороннегоТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналСМСОповещенияВодителейОПросрочкеДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналСМСОповещенияВодителейОПросрочкеДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_TokenTelegram)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_TokenTelegram)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВходящиеСМС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ВходящиеСМС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЦРМСТО)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЦРМСТО)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_cgr_ЖурналСинхронизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_cgr_ЖурналСинхронизации)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_cgr_ИдентификаторыОбъектовВСервисе)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_cgr_ИдентификаторыОбъектовВСервисе)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенныеСклады)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_РазрешенныеСклады)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПолучениеДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПолучениеДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Б24_СопоставлениеДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Б24_СопоставлениеДанных)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДопРеквизитыДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДопРеквизитыДокументов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналОповещений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналОповещений)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДежурныйМеханик)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ДежурныйМеханик)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_олНашиПараметры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_олНашиПараметры)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтклоненияТемпературногоРежима)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОтклоненияТемпературногоРежима)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределенныеЗаправки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределенныеЗаправки)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределеннаяПрибыльЭвакуация)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НераспределеннаяПрибыльЭвакуация)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрикреплённыеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ПрикреплённыеФайлы)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ДополнительныеРеквизиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ДополнительныеРеквизиты)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияСвязей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияСвязей)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияМаркеров)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_ИсторияМаркеров)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_НастройкиМаркеров)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_Фокус_НастройкиМаркеров)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналЗагрузкиДанныхВиалон)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ЖурналЗагрузкиДанныхВиалон)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГеозоныФилиалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГеозоныФилиалов)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_НапоминанияДиспетчерам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_НапоминанияДиспетчерам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОграниченияПоКонтрагентам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ОграниченияПоКонтрагентам)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceLast",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГлонассСофт_ID_ТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "SliceFirst",
+    "returnType": "Collection(StandardODATA.InformationRegister_ГлонассСофт_ID_ТС)",
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Start",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "Start",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  },
+  {
+    "name": "ExecuteTask",
+    "returnType": null,
+    "entitySet": null,
+    "httpMethod": null
+  }
+]

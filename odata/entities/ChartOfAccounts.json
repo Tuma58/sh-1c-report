@@ -1,0 +1,310 @@
+[
+  {
+    "name": "УдалитьУатБюджетирование",
+    "collections": [
+      "ChartOfAccounts_УдалитьУатБюджетирование"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Order",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "OffBalance",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ИсточникДанныхДляФакта_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "ПоказательИсточникаДанныхДляФактаСум",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "СпособОпределенияВалютыОборотаФакт",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПоказательИсточникаДанныхДляФактаКол",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "КоэффициентДляФактаСум",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "КоэффициентДляФактаКол",
+        "type": "Edm.Double",
+        "nullable": "true"
+      },
+      {
+        "name": "Валютный",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Количественный",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ExtDimensionTypes",
+        "type": "Collection(StandardODATA.ChartOfAccounts_УдалитьУатБюджетирование_ExtDimensionTypes)",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfAccounts_УдалитьУатБюджетирование_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      },
+      {
+        "name": "ИсточникДанныхДляФакта",
+        "relationship": "StandardODATA.ChartOfAccounts_УдалитьУатБюджетирование_ИсточникДанныхДляФакта",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "Хозрасчетный",
+    "collections": [
+      "ChartOfAccounts_Хозрасчетный"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Order",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "OffBalance",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ЗапретитьИспользоватьВПроводках",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "КодБыстрогоВыбора",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Валютный",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Количественный",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "УчетПоПодразделениям",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "НалоговыйУчет",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "ExtDimensionTypes",
+        "type": "Collection(StandardODATA.ChartOfAccounts_Хозрасчетный_ExtDimensionTypes)",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfAccounts_Хозрасчетный_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  },
+  {
+    "name": "уатРегламентированный",
+    "collections": [
+      "ChartOfAccounts_уатРегламентированный"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Predefined",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "PredefinedDataName",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Parent_Key",
+        "type": "Edm.Guid",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Order",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "OffBalance",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "Type",
+        "type": "Edm.String",
+        "nullable": "true"
+      }
+    ],
+    "navigation": [
+      {
+        "name": "Parent",
+        "relationship": "StandardODATA.ChartOfAccounts_уатРегламентированный_Parent",
+        "fromRole": "Begin",
+        "toRole": "End"
+      }
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Обмен5SAuto",
+    "collections": [
+      "ExchangePlan_Обмен5SAuto"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SentNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ReceivedNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ОбменБ24",
+    "collections": [
+      "ExchangePlan_ОбменБ24"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SentNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ReceivedNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "ОбменЦРМ",
+    "collections": [
+      "ExchangePlan_ОбменЦРМ"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SentNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ReceivedNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "АдресСервера",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "ПортСервера",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "П_ВыгрузкаДокументовБП",
+    "collections": [
+      "ExchangePlan_П_ВыгрузкаДокументовБП"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SentNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ReceivedNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  },
+  {
+    "name": "уатПолный",
+    "collections": [
+      "ExchangePlan_уатПолный"
+    ],
+    "keys": [
+      "Ref_Key"
+    ],
+    "properties": [
+      {
+        "name": "Ref_Key",
+        "type": "Edm.Guid",
+        "nullable": "false"
+      },
+      {
+        "name": "Code",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "Description",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DataVersion",
+        "type": "Edm.String",
+        "nullable": "true"
+      },
+      {
+        "name": "DeletionMark",
+        "type": "Edm.Boolean",
+        "nullable": "true"
+      },
+      {
+        "name": "SentNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      },
+      {
+        "name": "ReceivedNo",
+        "type": "Edm.Int64",
+        "nullable": "true"
+      }
+    ],
+    "navigation": []
+  }
+]
